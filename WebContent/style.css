@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	font-family: 'Open Sans';
+}
+.backgr1 {
+	background: url('images/bg1.jpg') no-repeat;
+	background-size: cover;
+}
+.backgr2 {
+	background: url('images/bg2.jpg') no-repeat;
+	background-size: cover;
+}
+.backgr3 {
+	background: url('images/bg3.jpg') no-repeat;
+	background-size: cover;
+}
+.backgr4 {
+	background: url('images/bg4.jpg') no-repeat;
+	background-size: cover;
+}
+.backgr5 {
+	background: url('images/bg5.jpg') no-repeat;
+	background-size: cover;
+}
+.backgr6 {
+	background: url('images/bg6.jpg') no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 1000px;
+	min-height: 300px;
+	margin: 100px auto;
+	background-color: rgba(255,255,255,0.8);
+	padding: 50px;
+}
+.container h1 {
+	text-align: center;
+}
+.form {
+	width: 500px;
+	margin: 0 auto;
+}
+.myform {
+	padding: 10px;
+	font-size: 16px;
+}
+.btn {
+	min-width: 75px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 0 10px 0 10px;
+    background: linear-gradient(#fff,#848484);
+    color: #333;
+}
+table tr td {
+	padding: 20px;
+}
+.alert {
+	width: auto;
+    margin: 20px auto;
+    text-align: center;
+    height: 22px;
+    padding: 5px;
+    background-color: green;
+    color: #fff;
+}
+.alert-failure {
+	width: auto;
+    margin: 20px auto;
+    text-align: center;
+    height: 22px;
+    padding: 5px;
+	background-color: #d00606;
+	color: #fff;
+}
+.menu li {
+	list-style: none;
+	font-size: 20px;
+	height: 30px;
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+	padding: 0 20px 0 20px;
+	background: linear-gradient(#fdfdfd, #fff);
+}
+.menu a {
+	text-decoration: none;
+	color: #000;
+}
+.mytable {
+	width: 100%;
+	border-spacing: 0;
+}
+.mytable tr th {
+	background-color: #000;
+	color: #fff;
+}
+img.goleft {
+	height: 30px;
+	padding: 4px;
+    margin-right: 20px;
+}
+h1.goleft {
+	width: 900px;
+	margin: 0 auto;
+}
+.goleft {
+	float: left;
+}
+.clearfix {
+	clear:both;
+}
