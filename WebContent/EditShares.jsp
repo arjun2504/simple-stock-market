@@ -21,7 +21,7 @@
 		</tr>
 		<tr>
 			<td>Current Price (in Rs.)</td>
-			<td><input type="number" name="price" class="myform" value="${ company.getCurrentPrice() }" required /></td>
+			<td><input type="number" name="price" class="myform" id="price" value="${ company.getCurrentPrice() }" required /></td>
 		</tr>
 		<tr>
 			<td></td>

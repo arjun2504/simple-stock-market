@@ -36,7 +36,7 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td><center><button type="submit" class="btn">Purchase</button></center></td>
+			<td><center><button type="submit" class="btn">Sell</button></center></td>
 		</tr>
 	</table>
 </form>

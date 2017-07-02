@@ -28,7 +28,7 @@
 		</tr>
 		<tr>
 			<td align="right">Current Price (in Rs.)</td>
-			<td><input type="number" name="price" class="myform" /></td>
+			<td><input type="number" name="price" id="price" class="myform" /></td>
 		</tr>
 		<tr>
 			<td></td>

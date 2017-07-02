@@ -14,11 +14,17 @@ function validate() {
 }
 
 function checkIfTotalHigher() {
-	var avail = document.getElementById("availableshares").value;
-	var total = document.getElementById("totalshares").value;
+	var avail = parseInt(document.getElementById("availableshares").value);
+	var total = parseInt(document.getElementById("totalshares").value);
+	var price = parseInt(document.getElementById("price").value);
 	
 	if(avail > total) {
 		alert("Available Shares cannot be greater than Total Shares");
+		return false;
+	}
+	
+	if(price > 100000) {
+		alert("Price cannot be more than Rs. 1,00,000");
 		return false;
 	}
 	
