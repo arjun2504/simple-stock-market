@@ -103,9 +103,9 @@ public class User {
 			ps.setString(1, userId);
 			ps.setString(2, name);
 			ps.setString(3, password);
-			ps.setString(4, location);
-			ps.setString(5, phone);
-			ps.setString(6, email);
+			ps.setString(4, location2);
+			ps.setString(5, phone2);
+			ps.setString(6, email2);
 			ps.setInt(7, 0);
 			
 			ps.executeUpdate();
